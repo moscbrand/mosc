@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moscbrand</title>
+<style>
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+
+::selection{
+    color: black;
+    background-color: yellow;
+}
+
+html,
+body {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000;
+  max-width: 100vw;
+  height: 100vh;
+}
+
+/*     padding: 20px */
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: black;
+  text-decoration-color: yellow;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.25rem;
+}
+
+/* header
+    height: 95vh
+    background-image: linear-gradient(to right bottom, lightblue, darkblue)
+    background-size: cover
+    background-position: top */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+  /*     margin: 4rem */
+}
+
+img {
+  max-width: 15vw;
+  max-height: auto;
+}
+
+section.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.infos p {
+  margin: 2rem 0;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+section.infos .description {
+  font-familly: serif;
+}
+</style>
+</head>
+<body>
+    <main>
+        <img src="img/mosc_logo-squared-fbprofile@3x.jpg" class="logo" alt="logo">
+        <section class="infos">
+            <h1>mosc&centerdot;</h1>
+            <p class="description">An agency specialized in <em> design and marketing.</em> <br>
+                we speak <em>french and english.</em> <br> We have an excellent process 
+                to develop your brand and project.
+            </p>
+            <p>
+                follow us on <a href="http://www.facebook.com/moscbrand">facebook</a><br>
+                follow us on <a href="http://www.behance.net/MOSC">Behance</a><br>
+                follow us on <a href="http://www.github.com/MekaClaude">Github</a><br>
+            </p>
+
+        </section>  
+
+    </main>    
+</body>
+</html>
